@@ -13,4 +13,10 @@
  pip3 install django
  
  python3 manage.py makemigrations
+ 
+ python3 manage.py migrate
+ 
+ python3 manage.py createsuperuser
+ 
+ pyhthon3 manage.py runserver
 
