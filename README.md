@@ -4,11 +4,13 @@
 
 
 # for aws
- git clone,
+ sudo apt-get update
  
- sudo apt install python3-pip3 -y,
+ git clone
  
- pip3 install django,
+ sudo apt install python3-pip3 -y
+ 
+ pip3 install django
  
  python3 manage.py makemigrations
 
